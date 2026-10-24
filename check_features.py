@@ -35,7 +35,7 @@ checks = [
     ("Notes List",     "GET",  "/api/notes",             None),
     ("Documents List", "GET",  "/api/documents",         None),
     ("Contacts List",  "GET",  "/api/contacts",          None),
-    ("Analytics",      "GET",  "/api/analytics/summary", None),
+    ("Analytics",      "GET",  "/api/analytics/stats",   None),
     ("Memory",         "GET",  "/api/memory",            None),
     ("YouTube Search", "POST", "/api/assistant",         {"command": "search youtube for python tutorials"}),
     ("Open Notepad",   "POST", "/api/assistant",         {"command": "open notepad"}),
@@ -46,7 +46,7 @@ checks = [
     ("Weather",        "POST", "/api/assistant",         {"command": "weather in colombo"}),
     ("Google Search",  "POST", "/api/assistant",         {"command": "search google for fastapi tutorial"}),
     ("Open GitHub",    "POST", "/api/assistant",         {"command": "open github"}),
-    ("AI Chat",        "POST", "/api/assistant",         {"command": "what is 3 times 7"}),
+    ("AI Chat",        "POST", "/api/assistant",         {"command": "explain quantum computing in simple terms"}),
 ]
 
 print("=" * 55)
