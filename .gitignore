@@ -1,0 +1,29 @@
+# React / Node.js
+node_modules/
+dist/
+.vite/
+
+# Python / FastAPI
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# API Keys and Environment Variables
+.env
+.env.*
+!.env.example
+
+# Database
+assistant.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
